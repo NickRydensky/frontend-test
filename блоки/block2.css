@@ -1,0 +1,52 @@
+body{
+    margin: 0 auto;
+    width: 960px;
+}
+.header{
+    background-color: grey;
+    max-width: 100%;
+    height: 100px;
+    border: double black 5px;
+    text-align: center;
+    border-radius: 30px 30px 30px 30px  ;
+    margin-bottom: 20px;
+}
+.header h1{
+    padding-top: 10px;
+    color: lightgreen;
+}
+.sidebar{
+    float: left;
+    background-attachment: grey;
+    border: solid 2px black;
+    max-width: 300px;
+    min-width: 200px;
+    text-align: center;
+    background-color: grey;
+}
+.sidebar li{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.sidebar a{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.container{
+    text-align: center;
+    height: 100vh;
+    background-color: grey;
+   
+}
+.container div{
+    margin-top: 20px;
+    margin-right: 20px;
+    display: inline-block;
+    background-color: blue;
+    max-width: 200px;
+    min-width: 200px;
+    max-height: 200px;
+    min-height: 200px;
+}

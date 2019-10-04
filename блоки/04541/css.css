@@ -1,0 +1,112 @@
+body{
+    margin: 0 auto;
+    background-image: url(../04541/back.png)
+}
+.body{
+    height: auto;
+    
+    max-width: 1230px;
+    margin: 0 auto;
+
+
+}
+.h2logo{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 34px;
+    
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+.sitenav{
+    width: calc(100% - 139.15px);
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 14px;
+    color: white;
+}
+.sitenav li:hover{
+    color: #555555;
+}
+.sitenav li:not(:nth-last-child(-n + 1)){
+    margin-right: 29px;
+}
+.sitenav a{
+    text-decoration: none;
+    color: white;
+}
+.sitenav a:hover{
+    text-decoration: none;
+    color: #555555;
+}
+
+.usernav{
+    display: flex;
+    list-style: none;
+    font-size: 14px;
+    margin-left: 61px;
+    margin-right: 31px;
+}
+
+.usernav li:not(:nth-last-child(-n + 1)){
+    margin-right: 27px;
+}
+.usernav a{
+    text-decoration: none;
+    color: white;
+}
+.usernav a:hover{
+    color: darkorange;
+}
+
+.info{
+    margin-top: 280px;
+    width: 100%;
+    height: ;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    
+}
+.upper{
+    font-family: ;
+    font-size: 30px;
+}
+.maincontent{
+    height: 375px;
+}
+.contentlist{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    max-width: 1530px;
+    margin: 0 auto;
+    height: 370px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 375px;
+    padding: 0;
+    display: flex;
+}
+.contentlist li{
+    text-align: center;
+    width: 280px;
+    height: 220px;
+    list-style-type: none;
+    border: solid black 1px;
+}
+.contentlist a{
+    text-decoration: none;
+    color: #555555;
+}
+.contentlist h4{
+    margin: 0;
+}
+.contentlist p{
+    margin: 0;
+    font-size: 13px;
+}

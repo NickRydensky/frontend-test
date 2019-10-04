@@ -3,7 +3,7 @@ body{
     max-width: 960px;
     margin: 0 auto;
 }
-div{
+/* div{
     border: solid black 1px;
     padding: 5px 15px;
 
@@ -62,4 +62,4 @@ h4{
     line-height: 30px;
     text-align: center;
     border-radius: 0 0 10px 10px;
-}
+} */
