@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+    width: 320px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 10px;
+    background: black;
+    height: 540px;
+    background-image: url(./back.png);
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+
+.sitemenu {
+    text-align: center;
+    color: grey;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 15px;
+    height: 35px;
+}
+
+.sitemenu li {
+    justify-content: center;
+    width: 90px;
+}
+
+.sitemenu li:hover {
+    text-align: center;
+    border: 3px solid grey;
+    border-radius: 35px 35px 35px 35px;
+    transition: 500ms ease-in;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.h1 {
+    font-size: 30px;
+    color: grey;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.text {
+    color: grey;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+
+.but {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.button {
+    text-align: center;
+    width: 280px;
+    height: 40px;
+    background: none;
+    border: solid 2px #ff4e50;
+    border-radius: 20px 20px 20px 20px;
+    transition: 500ms ease-in;
+}
+
+.button a {
+    text-decoration: none;
+    color: #ff4e50;
+    transition: 400ms ease-in;
+}
+
+.but :hover {
+    color: #f3f3f2;
+    background: #ff4e50;
+}
+
+.meet {
+    margin-top: 48px;
+    text-align: center;
+}
+
+.plist {
+    color: #555555;
+    font-size: 19px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin: 0 auto;
+    width: 236px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    text-align: center;
+}
+
+.img {
+    margin-top: 15px;
+    border: solid f3f3f2 3px;
+    border-radius: 70px 70px 70px 70px;
+}
+
+.name {
+    margin-top: 15px;
+}
+
+.about {
+    margin-top: 15px;
+    margin-bottom: 28px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+
+/* MEDIA */
+
+@media(min-width: 768px) {
+    body {
+        width: 768px;
+    }
+    .header {
+        padding: 10px;
+        background: black;
+        height: 700px;
+        background-image: url(./back2.png);
+        background-position-x: center;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        -ms-flex-align: end;
+    }
+    .logomenu {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .logo {
+        margin: 0;
+    }
+    .plist {
+        all: none;
+    }
+    .plist {
+        display: flex;
+        flex-direction: row;
+        width: 492px;
+        flex-wrap: wrap;
+    }
+    .plist li {
+        flex-basis: 236px;
+    }
+}
