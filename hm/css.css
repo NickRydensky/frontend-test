@@ -1,0 +1,224 @@
+* {
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: black;
+    list-style-type: none;
+}
+
+.background_div {
+    /* margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 1000px;
+    background-image: url("HTML/img/background/start-page.jpg");
+    background-position: center;
+    background-repeat: no-repeat; */
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background: url("HTML/img/background/start-page.jpg") bottom center fixed no-repeat;
+    background-size: cover;
+}
+
+.h1 {
+    padding-top: 50px;
+    width: 700px;
+    color: #ffffff;
+    font-size: 34px;
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 34px;
+    text-transform: uppercase;
+}
+
+
+/* ////////////////////////////////////////////////////////
+........................................................
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+.startpage {
+    padding-top: 117px;
+    text-align: center;
+    max-width: 900px;
+}
+
+.line {
+    margin-top: 30px;
+    width: 100px;
+    border-bottom: 1.5px solid #ffffff;
+}
+
+.startpage_text {
+    margin-top: 40px;
+    font-size: 14px;
+    /* font-weight: normal; */
+    color: #ffffff;
+}
+
+.button {
+    margin: 100px;
+    width: 180px;
+    height: 50px;
+    background: none;
+    border: 1px solid #ffffff;
+    text-transform: uppercase;
+    color: #ffffff;
+    transition: all 0.8s ease-in;
+}
+
+.button:hover {
+    background: dimgray;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrow {
+    /* margin-bottom: 150px; */
+    position: absolute;
+    width: 15px;
+    height: 10px;
+    background: url(../img/arrow-down.png) no-repeat center center;
+    display: block;
+    -webkit-animation: bounce-fade 1.5s infinite;
+}
+
+@-webkit-keyframes bounce-fade {
+    0% {
+        opacity: 0;
+        bottom: 70px;
+    }
+    100% {
+        opacity: 1;
+        bottom: 35px;
+    }
+}
+
+
+/* ////////////////////////////////////////////////////////
+........................................................
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+.header {
+    padding: 16px;
+    border-bottom: 1px #ada074 solid;
+}
+
+.header_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 900px;
+}
+
+.name {
+    margin: 0;
+    font-size: 26px;
+}
+
+.list {
+    margin: 0;
+    margin-left: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.navigation {
+    margin: 0;
+    font-size: 15px;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.navigation:not(:last-child) {
+    margin-right: 35px;
+}
+
+.navigation:hover {
+    color: #ada074;
+}
+
+
+/* ////////////////////////////////////////////////////////
+........................................................
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+.about_us {
+    margin-top: 120px;
+    max-width: 900px;
+    text-align: center;
+}
+
+.wrapper {
+    width: 285px;
+}
+
+.other_lines {
+    margin-top: 30px;
+    width: 100px;
+    border-bottom: 1.5px solid black;
+}
+
+.text_about {
+    color: #a4a4a4;
+    font-size: 14px;
+    padding-top: 35px;
+}
+
+
+/* ////////////////////////////////////////////////////////
+........................................................
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+.basics {
+    box-sizing: border-box;
+    max-width: 900px;
+}
+
+.list_basics {
+    padding: 0;
+    padding-top: 70px;
+    padding-bottom: 140px;
+    display: flex;
+    text-align: center;
+}
+
+.bacics_li {
+    width: 300px;
+    box-sizing: border-box;
+}
+
+.img_circle {
+    width: 90px;
+    height: 90px;
+    border: 2px solid #f0f0f0;
+    border-radius: 50px;
+}
+
+.basics_img {
+    margin: 0 auto;
+    margin-top: 17px;
+}
+
+.h3 {
+    padding-top: 55px;
+    padding-bottom: 35px;
+    font-size: 26px;
+    color: ;
+    text-transform: uppercase;
+}
+
+.basics_p {
+    color: #a4a4a4;
+    width: 285px;
+}
